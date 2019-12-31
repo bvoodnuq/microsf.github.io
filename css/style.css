@@ -1,0 +1,171 @@
+/* Common Styles */
+
+body {
+	background: #000 url('../img/bg_pat.png') repeat;
+	display: block;
+	overflow: auto; 
+	font-family: "Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei","Î¢ÈíÑÅºÚ",tahoma,arial,simsun,"ËÎÌå";
+	font-size: 14px;
+	color: #5f5f5f;
+	margin: 0;
+}
+
+#wrap {
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.heading {
+	color: #222222;
+	font-size: 15px;
+	margin: 0px;
+	padding: 0px;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.weibo_btn, .wechat_btn {
+	width: 28px;
+	height: 28px;
+	display: block;
+	background-image: url('../img/contact.png');
+	background-position: 0px 0px;
+}
+
+.weibo_btn span.hover, .wechat_btn span.hover {
+	width: 28px;
+	height: 28px;
+	display: block;
+	background-image: url('../img/contact.png');
+	background-position: 0px -28px;
+}
+
+.wechat_btn {
+	background-position: -28px 0px;
+}
+
+.wechat_btn span.hover {
+	background-position: -28px -28px;
+}
+
+#wx_box{display: none; position: absolute;top:30px;left:-167px; width:195px;height:200px;background:url(weixin2w.png) no-repeat;}
+#weixin{position: relative;}
+
+h1, h2, p, blockquote { margin: 0; padding: 0; }
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+svg:not(:root) { overflow: hidden; }
+a {text-decoration: none;color: #33a8c5;}
+a:visited {color: #33a8c5;}
+a:hover {text-decoration: underline;}
+a:hover, a:active { outline: 0; }
+::selection {background: #33a8c5;}
+::-moz-selection {background: #33a8c5;}
+
+/* Masthead */
+
+#phones {
+	float: left;
+	display: block;
+	background: url('../img/phone.png') no-repeat;
+	width: 381px;
+	height: 481px;
+	margin-top: 15px;
+}
+
+#description {
+	float: left;
+	display: block;
+	margin-left: 35px;
+	padding-top: 100px;
+	width: 544px;
+}
+
+#logo {
+	float: left;
+	display: block;
+	text-indent: -9999px;
+	background: url('../img/logo.png') no-repeat;
+	width: 214px;
+	height: 75px;
+	margin-top: -11px;
+}
+
+#links {
+	float: right;
+}
+
+#links li {
+	display: inline-block;
+	padding-right: 16px;
+}
+
+#links li:last-child {
+	padding-right: 48px;
+}
+
+#description .heading {
+	clear: both;
+	padding-top: 35px;
+	font-size: 24px;
+}
+
+#description p {
+	padding-top: 15px;
+	line-height: 170%;
+}
+
+.stores li {
+	display: inline-block;
+	padding-right: 16px;
+	padding-top: 25px;
+}
+
+.stores li:last-child {
+	padding-right: 0px;
+}
+/* App Info */
+
+#app_info {
+	background: url('../img/line.png') no-repeat top;
+	width: 1160px;
+	clear: both;
+	float: left;
+	display: block;
+	margin-top: 50px;
+	margin-bottom:50px;
+}
+
+.qrcode {
+	float: left;
+	width: 225px;
+	padding-left: 55px;
+	margin-top: 25px;
+	background: url('../img/line_vertical.png') no-repeat center right;
+}
+
+.screen_roll {
+	 background:url('../img/zoom.png') no-repeat center center;
+	 width: 181px;
+	 height: 133px;
+	 z-index: 10;
+	 position: absolute;	
+}
+
+#content {
+	float: left;
+	padding-top: 50px;
+	padding-left: 25px;
+	line-height: 170%;
+	width: 655px;
+}
+
+#content p{
+  text-indent:2em; line-height:28px; 
+}
+
+
